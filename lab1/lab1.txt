@@ -1,0 +1,27 @@
+Lab 1
+
+Step 1: For this lab, you will ideally use VSCode or Visual Studio for developing Python programs.  I recommend installing VSCode now if you do not have either installed.
+
+Step 2: Install panda3d to your laptop.  See https://www.panda3d.org/
+
+Step 3: Run lab1/panda3d_test.py
+
+SUBMIT a screenshot of the interactive graphical output window.
+
+
+Step 4: Install MATLAB and Simulink along with the following add-ons:
+Install: MATLAB, Simulink, Control System Toolbox, Simulink Control Design, SimEvents, Simscape, StateFlow, SystemComposer
+Instructions for installation can be found here: https://its.unc.edu/research-computing/techdocs/mathworks-portal/
+
+SUBMIT a screenshot of MATLAB opened on your computer.
+
+Step 5: Click on the Simulink launcher in MATLAB, and from the Examples tab open "Simulation of Bouncing Ball".  Run the simulation by pressing the "Run" button.  (you may need to press it twice for both graphs to appear).
+
+SUBMIT a screenshot of Simulink showing the block diagram of the model.
+SUMBIT a screenshot of the Viewer: Scope window showing the state (Position and Velocity) vs. time.
+
+ 
+
+We will continue doing graphical simulations in Lab 2, and Homework 1 requires Simulink.  
+
+
