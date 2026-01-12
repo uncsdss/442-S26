@@ -4,7 +4,7 @@ Step 1: For this lab, you will ideally use VSCode or Visual Studio for developin
 
 Step 2: Install panda3d to your laptop.  See https://www.panda3d.org/
 
-Step 3: Run lab1/panda3d_test.py
+Step 3: Run lab1/panda3d_test.py (don't worry about understanding any of the code, it is mostly graphics code).
 
 SUBMIT a screenshot of the interactive graphical output window.
 
@@ -19,7 +19,6 @@ Step 5: Click on the Simulink launcher in MATLAB, and from the Examples tab open
 
 SUBMIT a screenshot of Simulink showing the block diagram of the model.
 SUMBIT a screenshot of the Viewer: Scope window showing the state (Position and Velocity) vs. time.
-
  
 
 We will continue doing graphical simulations in Lab 2, and Homework 1 requires Simulink.  

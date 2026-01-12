@@ -100,7 +100,7 @@ square0 = makeSquare(-1, -1, -1, 1, -1, 1, 1, 0, 0,)
 square1 = makeSquare(-1, 1, -1, 1, 1, 1, 0, 1, 0)
 square2 = makeSquare(-1, 1, 1, 1, -1, 1, 0, 0, 1)
 square3 = makeSquare(-1, 1, -1, 1, -1, -1, 1, 1, 0)
-square4 = makeSquare(-1, -1, -1, -1, 1, 1, 0,1,1)
+square4 = makeSquare(-1, -1, -1, -1, 1, 1, 0, 1, 1)
 square5 = makeSquare(1, -1, -1, 1, 1, 1, 1, 0, 1)
 snode = GeomNode('square')
 snode.addGeom(square0)
@@ -111,10 +111,6 @@ snode.addGeom(square4)
 snode.addGeom(square5)
 
 cube = render.attachNewNode(snode)
-cube.setHpr(0.0, 0, 0)
-
-# OpenGl by default only draws "front faces" (polygons whose vertices are
-# specified CCW).
 cube.setTwoSided(True)
 
 class MyTapper(DirectObject):
