@@ -1,0 +1,60 @@
+Lab 2
+
+Step 1: For this lab, you will be working in both Simulink and Python.
+
+Imagine a small forest of fir trees, located deep in the Pacific Northwest. The forest contains 1000 trees, half of which are still saplings. The other half have already grown to be tall, towering trees. Over the course of each year, the locals chop down, on average, 10 of the tall trees. Every year the third graders in Miss Pringle’s class plant 10 young saplings in the forest and carefully watch them grow. Miss Pringle tells her class that it will take their saplings 50 years to grow to resemble the older trees.
+
+This lab will guide you through the steps to make a simple model of the forest in order to understand how the distribution of trees in the forest changes over time. The model will contain the elements listed below: 
+
+• mature trees
+• planting 
+• time for saplings to mature
+• saplings
+• harvesting
+• maturing
+
+Identify each element as either stock, flow, or constant, and label its units.
+
+SUBMIT your answers.
+
+Step 2: Draw a quick sketch of the overall system diagram, with proper inflows and outflows.  Label the sketch with the 6 labels above.
+
+SUBMIT your sketch.
+
+Step 3: Assume the following:  If there are N saplings in a forest and saplings need M years to mature, then N/M of the saplings mature each year.  Define the equations for each flow using the elements from Step 1.
+
+SUBMIT your equations.
+
+Step 4: Draw a sketch estimating what the behavior of the system will be.  In other words, draw the saplings and mature tree count vs. time.  This is not graded for correctness!
+
+SUBMIT your sketch.
+
+Step 5: Open MATLAB and launch Simulink.  As described in class, stocks are typically represented as integrators.  Convert your sketch from Step 2 and use the equations from Step 3 to implement this system in Simulink.  Try to do this yourself first, then feel free to discuss with others.  You will also need Constant blocks and Sum blocks (and maybe others depending on how you implement things).
+
+Nothing to submit for this step.
+
+Step 6: Connect the "saplings" and "mature trees" signals to a Scope block, then run a simulation of 300 years.  Be sure to enable SCOPE->Settings-> Legend.  Was the behavior similar to what you predicted?
+
+SUBMIT a screenshot of your diagram and the Scope output.
+
+Step 7: As more and more people move to the Pacific Northwest to be closer to nature, the demand for firewood increases. Now the locals chop down five more trees each year. Miss Pringle decides to compensate by having the 3rd graders plant five more saplings each year.
+Make the necessary changes to your forest model in Simulink to reflect the new scenario, and run the simulation.
+
+SUBMIT a screenshot of your diagram and the Scope output.
+
+Step 8: In lab2.py, edit simulationIteration() to implement a simulation of the forest system as described in Step 1.  Follow the instructions in the comment block.  Run the code to see a graphical representation of the forest.  
+
+Nothing to submit for this step.
+
+Step 9: Update lab2.py to implement the scenario from Step 7, and run the code until the graphics window stops changing.  
+
+SUBMIT lab2.py and a screenshot of the steady-state graphics window.
+
+
+SUBMISSION LIST: Answers for Steps 1-4, screenshot for Step 6, Step 7, Step 9, and lab2.py
+
+
+Just for fun: What is wrong with the visualization of the trees being harvesting and planted?  Fix the visualization to make it more realistic.  Feel free to ask/discuss this with me if you are interested.
+ 
+
+
