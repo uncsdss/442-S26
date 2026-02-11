@@ -1,0 +1,26 @@
+Lab 4
+
+For this lab, you will be working in Simulink.
+
+Step 1: Using two separate integrator blocks, create a very simple system model in Simulink for the height of an 80kg person diving off of a bridge.  Use a constant block to set the height of the bridge to be 100 meters.  Display the velocity and height of the person in a Scope block, and simulate for 20 seconds.
+
+
+SUBMIT a screenshot of your model and the Scope output.
+
+Step 2: Now assume the person is connected to a bungie cord attached to the bridge, and the bungie cord has a spring constant of 10 Newton per meter.  Simulate for 20 seconds the behavior of the person diving off the bridge. 
+
+SUBMIT a screenshot of your model and the Scope output.
+
+
+Step 3: What would the spring constant need to be for the person to just barely reach the water?  (height = 0meters)?  Simulate for 40 seconds with this spring constant.
+
+SUBMIT a screenshot of your model and the Scope output.  Be sure that your spring constant value is visible in the Simulink capture.
+
+
+Step 4: Repeat Step 1 but this time use only a single integrator block and represent the system using State Space.
+
+SUBMIT a screenshot of your model and the Scope output.
+
+
+
+
