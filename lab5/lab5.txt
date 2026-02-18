@@ -1,0 +1,22 @@
+Lab 5: Pendulums and rockets
+
+For this lab, you will be working in Python.
+
+Step 1: Edit lab5.py to implement the equations of motion for a pendulum.  Assume the pendulum length is 1 meter.
+
+
+Step 2: Try different initial conditions for theta and thetadot, and different lengths for the pendulum.
+
+SUBMIT your Python file for this step and a screenshot of the pendulum not at rest
+
+
+Step 3: Set the initial conditions back to 0 and length to 1.  Use the A and D keys to apply impulse forces to the pendulum.  Try to get the pendulum to horizontal.  Then try to get it to stop.
+
+Step 4: Try starting the pendulum at 170 degrees.
+
+
+
+
+
+
+
