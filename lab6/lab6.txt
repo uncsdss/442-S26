@@ -1,0 +1,54 @@
+Lab 6: Controlling an inverted pendulum
+
+For this lab, you will be working in Python.
+
+Step 1: Run lab6_1and2.py.  Press 1 to start the simulation, 0 to pause it, and R to reset it.  
+The pendulum starts with an initial velocity.  If it touches the ground the simulation ends.
+Try to keep the pendulum upright for as long as possible by:
+ Pressing A to add a brief counterclockwise torque and D to add a brief clockwise torque.
+
+SUBMIT a screenshot of your longest time.
+ 
+Step 2: Edit lab6_1and2.py to change the length of the pendulum to be 2.0 instead of 1.0.
+Repeat the process of step 1 with this new longer pendulum.  Easier or harder?  Share with the class.
+
+SUBMIT a screenshot of your longest time.
+
+Step 3: Edit lab6_3.py to implement a proportional controller.  
+Only edit the code in between the #### lines, and do not delete any of the defined variables.
+Tune Kp to get the lowest score (score is total theta error divided by time).
+
+SUBMIT a screenshot that shows your score after 30seconds.
+
+Step 4: Edit lab6_4.py to implement your proportional controller again from Step 3.
+But this time, the reference for theta changes every 5 seconds.  How does your proportional controller do now?
+Add a derivative controller to improve the performance.  
+Only edit the code in between the #### lines, and do not delete any of the defined variables.
+Tune Kp and Kd to get the lowest score.
+
+SUBMIT a screenshot that shows your score after 30seconds.
+
+Step 5: For real world systems, there is a practical limit to how much torque you can actually generate.  
+Edit lab6_5.py to implement a proportional plus derivative controller again, but note that the torque is now limited.
+Only edit the code in between the #### lines, and do not delete any of the defined variables.
+Tune Kp and Kd to get the lowest score.  Did you need to change the P and D gains from Step 4?
+ 
+SUBMIT a screenshot that shows your score after 30seconds.
+
+Step 6: Finally, add integral control by editing lab6_6.py.  
+Update the persistent variable "self.integrator_error" to keep track of the integrated error.
+Only edit the code in between the #### lines, and do not delete any of the defined variables.
+Tune Kp and Kd and Ki to get the lowest score.  Were you able to do any better than Step 5?
+
+SUBMIT a screenshot that shows your score after 30seconds.
+SUBMIT your edited lab6_6.py
+
+
+Bonus just for fun if you want: for Step 3,4,5, or 6, try changing the length of the pendulum and see what effect it has.
+
+
+
+
+
+
+
