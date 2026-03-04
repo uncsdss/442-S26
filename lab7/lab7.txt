@@ -1,0 +1,47 @@
+Lab 7: More control of an inverted pendulum
+
+For this lab, you will be working in Python.  To refresh your memory:
+Press 1 to start the simulation, 0 to pause it, and R to reset it.  
+
+Step 1: So far, we have had direct access to the internal state of the system, 
+but in reality you typically need to sense the state.
+lab7_1.py adds a function sense_theta() which provides you with theta. 
+You also have read access to dt, and read/write access to a 
+persistent variable self.error_previous.  
+Complete the code to implement a stable PD controller using the provided gains (don't change Kp or Kd)
+
+SUBMIT lab7_1.py and a screenshot that shows your score after 30seconds.
+
+Step 2: lab7_2 is identical the previous step, except now there is a small amount of 
+random noise added to the sensed theta.  Copy your solution from Step 1 and see the performance.
+How can we improve the performance?  We will discuss in class, then you must implement a solution.
+Don't change Kp, but you may change Kd if you like.
+
+SUBMIT lab7_2.py and a screenshot that shows your score after 30seconds.
+
+Step 3: lab7_3.py adds a SAMPLE_TIME value that is initially 0.0.  Starting with your solution from Step 2,
+try increasing the SAMPLE_TIME value and observe the results.  When does the system go unstable?  Try to
+get an answer to the nearest millisecond.  Add a comment with this number to your code.
+Can you find any way to make the system stable for a SAMPLE_TIME of 0.01?
+
+
+SUBMIT lab7_3.py and a screenshot that shows your score after 30seconds with SAMPLE_TIME 0.01
+
+
+Step 4: lab7_4.py is again identical to Step 2, with the SAMPLE_TIME set to 0.01
+Copy your solution from Step 3.  In Lab 6, to remove steady-state error, we added an integral term.
+This time, instead try adding a feedforward term to cancel out the steady-state error.  
+See how low a score you can get after 30seconds.  Can you beat my score of 3.5?
+
+SUBMIT lab7_4.py and a screenshot that shows your score after 30seconds.
+
+Step 5: Copy lab7_4.py to a new file called lab7_5.py.  
+Modify sense_theta() to add a simulation of a transport delay of k samples to the sensing.
+
+SUBMIT lab7_5.py
+
+
+
+
+
+
